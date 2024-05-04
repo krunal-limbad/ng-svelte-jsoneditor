@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LibModule } from 'ng-svelte-jsoneditor';
+import { NgSvelteJsonEditorModule } from 'ng-svelte-jsoneditor';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,9 @@ import { LibModule } from 'ng-svelte-jsoneditor';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LibModule
+    FormsModule,
+    ReactiveFormsModule,
+    NgSvelteJsonEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

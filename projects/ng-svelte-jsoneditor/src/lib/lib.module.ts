@@ -15,4 +15,4 @@ import { NgSvelteJsoneditorComponent } from './ng-svelte-jsoneditor/ng-svelte-js
     NgSvelteJsoneditorComponent
   ]
 })
-export class LibModule { }
+export class NgSvelteJsonEditorModule { }
