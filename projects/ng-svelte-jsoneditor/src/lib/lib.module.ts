@@ -10,6 +10,9 @@ import { NgSvelteJsoneditorComponent } from './ng-svelte-jsoneditor/ng-svelte-js
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    NgSvelteJsoneditorComponent
   ]
 })
 export class LibModule { }
