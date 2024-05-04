@@ -9,6 +9,11 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "ng-svelte-jsoneditor": [
+        "./dist/ng-svelte-jsoneditor"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
