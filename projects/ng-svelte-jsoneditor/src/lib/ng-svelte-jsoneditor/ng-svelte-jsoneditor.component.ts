@@ -105,7 +105,7 @@ export class NgSvelteJsoneditorComponent implements ControlValueAccessor, OnInit
 			this.options = {};
 		}
 		if (!this.options.mode) {
-			this.options.mode = Mode.tree;
+			this.options.mode = Mode.text;
 		} else {
 			this.options.mode = this._modeEnumHash[this.options.mode];
 		}
