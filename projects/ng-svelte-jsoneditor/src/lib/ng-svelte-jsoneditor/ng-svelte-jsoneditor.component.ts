@@ -180,7 +180,7 @@ export class NgSvelteJsoneditorComponent implements ControlValueAccessor, OnInit
 		};
 
 		if (this.options.mode === Mode.text) {
-			editorContent.text = this.data || '';
+			editorContent.text = this.data?.toString() || '';
 		} else {
 			if (this.isValidJson(this.data)) {
 				editorContent.json = typeof this.data !== 'object' ? JSON.parse(this.data) : this.data;
