@@ -1,14 +1,14 @@
 {
   "name": "ng-svelte-jsoneditor",
   "description": "A web-based tool to view, edit, format, transform, and validate JSON.",
-  "keywords": ["angular", "library", "JSON Editor", "JSON Viewer", "JSON Formatter", "JSON Validator", "JSON Transformer", "JSON Manipulator", "angular", "jsoneditor","ng-jsoneditor","ng-jsoneditorangular"],
+  "keywords": ["angular", "library", "JSON Editor", "JSON Viewer", "JSON Formatter", "JSON Validator", "JSON Transformer", "JSON Manipulator", "angular", "jsoneditor","ng-jsoneditor","ng-jsoneditor", "angular"],
   "repository": {
     "type": "git",
     "url": "https://github.com/krunal-limbad/ng-svelte-jsoneditor"
   },
   "author": "Krunal Limbad",
   "license": "MIT",
-  "version": "0.4.0",
+  "version": "1.3.4",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0",
